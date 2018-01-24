@@ -32,6 +32,7 @@ class cliente
 
 
  echo "Dados do  cartão do cliente 1 numero:" . $cliente1->cartao->numero . PHP_EOL;
-  echo "Dados do  cartão do cliente 1 nome:" . $cartao1->cliente->nome . PHP_EOL;
+echo "Dados do  cartão do cliente 1 nome:" . $cartao1->cliente->nome . PHP_EOL;
+ echo "Dados do  cartão do cliente 1 validade:" . $cliente1->cartao->validade . PHP_EOL;
 
  ?>
